@@ -1,0 +1,16 @@
+nav {
+    position: fixed;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    padding: 0px 100px;
+}
+nav li a{
+    text-decoration: none;
+    color: darkred;
+    border: 1px solid blue;
+    padding: 10px 20px;
+ }
