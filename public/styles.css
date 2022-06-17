@@ -1,16 +1,23 @@
 nav {
-    position: fixed;
+    position: sticky;
 }
-nav ul {
+ul {
     display: flex;
     list-style: none;
 }
 nav li {
     padding: 0px 100px;
 }
-nav li a{
+nav a{
     text-decoration: none;
     color: darkred;
-    border: 1px solid blue;
     padding: 10px 20px;
  }
+.social-link a {
+    text-decoration: none;
+    color: gray;
+    padding: 0px 20px;
+   }
+.social-link li {
+    padding: 0 150px;
+}
